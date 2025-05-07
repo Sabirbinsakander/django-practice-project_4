@@ -1,0 +1,2 @@
+app file er modde urls.py take nah
+অপস ফাইলের মাঝে থাকে urls.py না|
