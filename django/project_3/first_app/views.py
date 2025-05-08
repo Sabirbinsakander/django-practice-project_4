@@ -1,8 +1,11 @@
 from django.shortcuts import render
+import datetime 
 
 # Create your views here.
+
+
 def home(request):
-    d = {'author' : 'Rahim', 'Age' : 15, 'list' : [1, 2, 3], 'courses' : [
+    d = {'author' : 'Rahim', 'Age' : 15, 'list' : ['python', 'is', 'best'], 'birthday' : datetime.datetime.now() , 'courses' : [
         {
             'id' : 1,
             'name':'Python',
